@@ -1,0 +1,137 @@
+* ,body,html {
+
+    margin: 0;
+    padding: 0;
+    font: 1em "Open Sans", sans-serif;
+}
+body{
+    background-color: #eee;
+}
+/*-----------------------------------------------------------*/
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-top: 0;
+    z-index: 100;
+ 
+    box-shadow: -1px 15px 1px rgba(0,0,0,0,3);
+    width: 100%;
+    background-color: #333;
+  /*  color: #fff; */
+    height: 60px;
+}
+.menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+
+}
+#logo {
+    color: #eee;
+}
+.menu > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+.menu > ul > li {
+    float: left;
+}
+.menu-item {
+   display: inline-block;
+   padding: 15px 20px;
+   height: 30px;
+   line-height: 30px;
+   color: #fff;
+   text-decoration: none; 
+}
+.menu-item:hover{
+    background-color:#ff0055 ;
+}
+/*------------------------------------------*/
+
+.sup-conant{ 
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+     background-color:#333; 
+    max-height: 0;
+    
+}
+.sup-conant a {
+    color: #fff;
+    text-decoration: none;
+}
+.sup-drop{
+    padding: 0;
+}
+.sup-drop ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.sup-drop ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+.sup-drop ul li:hover{
+    background-color: #ff0055;
+}
+
+.menu-item:focus{
+    background-color: #ff0055;
+}
+.menu ul li:hover  .sup-conant{
+    max-height: 400px;
+    transition: max-height 0.5s ease-in; 
+    -webkit-transition: max-height 0.5s ease-in;
+    -moz-transition: max-height 0.5s ease-in;
+}
+
+#rmenu{
+    float: right;
+}
+
+#parg {
+    
+    padding-top: 70px;
+    text-align: center;
+    font: 2em sans-serif;
+    color: black;
+}
+  img {
+        width: 100%;
+        padding: 50px 200px;   
+}
+.parg2 {
+    
+    width: 100%;
+    padding: 10px 200px;
+    margin: 0;
+    color:#333;
+}
+.parg3 {
+    
+    width: 100%;
+    padding: 10px 200px;
+    margin: 0;
+   color:#333;
+}
+/*
+.pic2 {
+    width: 50%;
+    padding: 50px 500px;
+}
+*/
+.copy {
+    padding-top: 70px;
+    text-align: center;
+    font: 1em sans-serif;
+    color: black;
+}
+
